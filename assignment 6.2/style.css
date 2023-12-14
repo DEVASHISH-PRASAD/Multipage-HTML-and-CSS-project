@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+body {
+  margin: auto;
+  overflow: hidden;
+  max-width: 1440px;
+  background-color: #f0f4f5;
+}
+header {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+header img {
+  width: 150px;
+}
+header ul {
+  display: flex;
+  align-items: center;
+}
+header ul li {
+  list-style: none;
+  font-weight: 600;
+  margin-right: 50px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header ul li:first-child {
+  font-weight: 700;
+  color: #20bc7e;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+main section {
+  width: 50%;
+}
+
+.leftSection {
+  margin-left: 5%;
+  position: relative;
+}
+.topAngle {
+  width: 25px;
+}
+.leftSection h1 {
+  font-size: 70px;
+}
+.leftSection p {
+  color: #7c7c7c;
+  font-size: 18px;
+  margin: 20px 0;
+}
+.bottomAngle {
+  width: 25px;
+  position: absolute;
+  right: 25px;
+}
+.stethoscope {
+  z-index: -1;
+  position: absolute;
+  bottom: 0px;
+  width: 30px;
+}
+.mouse {
+  position: absolute;
+  right: -30px;
+  bottom: 0;
+  width: 30px;
+}
+.leftSection button {
+  border-radius: 30px;
+  background-color: #20bc7e;
+  padding: 15px 40px;
+  font-size: 25px;
+  font-weight: 700;
+  border: none;
+  color: white;
+}
+/* Right Section */
+.greenBox,
+.yellowBox {
+  position: absolute;
+  right: 0;
+}
+.greenBox {
+  width: 35%;
+  bottom: 30px;
+}
+.yellowBox {
+  width: 30%;
+  bottom: 50px;
+}
+.doctor {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 90%;
+}
